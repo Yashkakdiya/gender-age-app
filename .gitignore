@@ -1,4 +1,9 @@
 tf_env/
-__pycache__/
-*.pyc
-.DS_Store
+models/
+captured_images/
+data/
+report.csv
+*.caffemodel
+*.h5
+*.pt
+*.onnx
