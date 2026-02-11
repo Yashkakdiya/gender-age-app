@@ -1,9 +1,13 @@
+# import streamlit as st
+# import cv2
+# import numpy as np
+# from PIL import Image
+import hashlib
+
 import streamlit as st
 import cv2
 import numpy as np
 from PIL import Image
-import hashlib
-
 
 from src.face_detector import get_faces
 from src.gender_age_predictor import predict_gender_age
