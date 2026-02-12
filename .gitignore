@@ -1,9 +1,19 @@
+# Virtual environment
 tf_env/
-models/
-captured_images/
-data/
-report.csv
+
+# Python cache
+__pycache__/
+*.pyc
+.DS_Store
+
+# Database
+*.db
+
+# ML Models
 *.caffemodel
 *.h5
 *.pt
 *.onnx
+
+# Captured images
+captured_images/
